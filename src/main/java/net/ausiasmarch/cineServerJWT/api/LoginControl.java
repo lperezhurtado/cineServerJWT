@@ -23,7 +23,7 @@ public class LoginControl {
     //login con JWT
     @PostMapping
     public ResponseEntity<String> login(@RequestBody UsuarioBean usuarioBean) {
-        return new ResponseEntity<String>(authService.loginJWT(usuarioBean), HttpStatus.OK);
+        return new ResponseEntity<String>("\""+authService.loginJWT(usuarioBean)+"\"", HttpStatus.OK);
     }
 
     @GetMapping("")
