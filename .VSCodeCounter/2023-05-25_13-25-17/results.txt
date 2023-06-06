@@ -1,0 +1,93 @@
+Date : 2023-05-25 13:25:17
+Directory : /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT
+Total : 60 files,  3069 codes, 290 comments, 874 blanks, all 4233 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |         60 |      3,069 |        290 |        874 |      4,233 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                            |         60 |      3,069 |        290 |        874 |      4,233 |
+| . (Files)                                                                                                                    |          1 |          9 |          0 |          5 |         14 |
+| api                                                                                                                          |         12 |        616 |         31 |        128 |        775 |
+| bean                                                                                                                         |          2 |         60 |          0 |         23 |         83 |
+| entities                                                                                                                     |         11 |        765 |          9 |        268 |      1,042 |
+| exceptions                                                                                                                   |          5 |         59 |          6 |         21 |         86 |
+| filter                                                                                                                       |          2 |         95 |         50 |         27 |        172 |
+| helper                                                                                                                       |          4 |        264 |         25 |         56 |        345 |
+| repository                                                                                                                   |         11 |        107 |          0 |         70 |        177 |
+| services                                                                                                                     |         12 |      1,094 |        169 |        276 |      1,539 |
++------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                     | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/CineServerJwtApplication.java            | Java     |          9 |          0 |          5 |         14 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/CompraControl.java                   | Java     |         54 |          0 |         12 |         66 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/EntradaControl.java                  | Java     |         56 |          1 |         13 |         70 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/FacturaControl.java                  | Java     |         53 |          0 |         11 |         64 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/GeneroControl.java                   | Java     |         53 |          6 |          6 |         65 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/LoginControl.java                    | Java     |         26 |          1 |          7 |         34 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/PeliculaControl.java                 | Java     |         58 |         16 |         15 |         89 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/SalaControl.java                     | Java     |         49 |          0 |         10 |         59 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/SesionControl.java                   | Java     |         56 |          0 |         12 |         68 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/TarifaControl.java                   | Java     |         53 |          0 |         11 |         64 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/TipoSalaControl.java                 | Java     |         53 |          6 |          8 |         67 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/TipoUsuarioControl.java              | Java     |         51 |          0 |         12 |         63 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/api/UsuarioControl.java                  | Java     |         54 |          1 |         11 |         66 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/bean/ErrorResponseBean.java              | Java     |         38 |          0 |         13 |         51 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/bean/UsuarioBean.java                    | Java     |         22 |          0 |         10 |         32 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/CompraEntity.java               | Java     |         66 |          0 |         25 |         91 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/EntradaEntity.java              | Java     |         69 |          3 |         24 |         96 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/FacturaEntity.java              | Java     |         68 |          0 |         22 |         90 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/GeneroEntity.java               | Java     |         40 |          3 |         17 |         60 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/PeliculaEntity.java             | Java     |        124 |          0 |         41 |        165 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/SalaEntity.java                 | Java     |         62 |          0 |         22 |         84 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/SesionEntity.java               | Java     |         82 |          3 |         27 |        112 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/TarifaEntity.java               | Java     |         47 |          0 |         18 |         65 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/TipoSalaEntity.java             | Java     |         40 |          0 |         16 |         56 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/TipoUsuarioEntity.java          | Java     |         47 |          0 |         16 |         63 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/entities/UsuarioEntity.java              | Java     |        120 |          0 |         40 |        160 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/exceptions/AppExceptionHandler.java      | Java     |         35 |          6 |          9 |         50 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/exceptions/ResourceNotFound.java         | Java     |          6 |          0 |          3 |          9 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/exceptions/ResourceNotModified.java      | Java     |          6 |          0 |          3 |          9 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/exceptions/UnauthorizationException.java | Java     |          6 |          0 |          3 |          9 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/exceptions/ValidationException.java      | Java     |          6 |          0 |          3 |          9 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/filter/CORSFilter.java                   | Java     |         52 |         50 |         17 |        119 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/filter/JWTFilter.java                    | Java     |         43 |          0 |         10 |         53 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/helper/FileHelper.java                   | Java     |         53 |          6 |          9 |         68 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/helper/JWTHelper.java                    | Java     |         44 |          0 |         11 |         55 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/helper/RandomHelper.java                 | Java     |         70 |          2 |         17 |         89 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/helper/ValidationHelper.java             | Java     |         97 |         17 |         19 |        133 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/CompraRepository.java         | Java     |          8 |          0 |          5 |         13 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/EntradaRepository.java        | Java     |         10 |          0 |          7 |         17 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/FacturaRepository.java        | Java     |          8 |          0 |          5 |         13 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/GeneroRepository.java         | Java     |          8 |          0 |          5 |         13 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/PeliculaRepository.java       | Java     |         10 |          0 |          7 |         17 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/SalaRepository.java           | Java     |          8 |          0 |          5 |         13 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/SesionRepository.java         | Java     |         17 |          0 |         12 |         29 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/TarifaRepository.java         | Java     |          8 |          0 |          5 |         13 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/TipoSalaRepository.java       | Java     |          8 |          0 |          4 |         12 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/TipoUsuarioRepository.java    | Java     |          8 |          0 |          5 |         13 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/repository/UsuarioRepository.java        | Java     |         14 |          0 |         10 |         24 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/AuthService.java                | Java     |         74 |          7 |         18 |         99 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/CompraService.java              | Java     |        110 |          7 |         28 |        145 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/EntradaService.java             | Java     |         75 |          3 |         21 |         99 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/FacturaService.java             | Java     |         73 |          6 |         16 |         95 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/GeneroService.java              | Java     |         50 |          6 |         15 |         71 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/PeliculaService.java            | Java     |        157 |         55 |         46 |        258 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/SalaService.java                | Java     |         69 |          7 |         13 |         89 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/SesionService.java              | Java     |        129 |         58 |         31 |        218 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/TarifaService.java              | Java     |         68 |          1 |         19 |         88 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/TipoSalaService.java            | Java     |         53 |          6 |         14 |         73 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/TipoUsuarioService.java         | Java     |         43 |          1 |         16 |         60 |
+| /home/luisp/ServerProject/cineServerJWT/src/main/java/net/ausiasmarch/cineServerJWT/services/UsuarioService.java             | Java     |        193 |         12 |         39 |        244 |
+| Total                                                                                                                        |          |      3,069 |        290 |        874 |      4,233 |
++------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
